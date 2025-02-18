@@ -53,5 +53,5 @@ with open(f"games_1.txt", "w") as f:
     f.close()
 
 st.download_button(label="Descargar juegos dinámicos", 
-                   data=open("games.txt", "rb").read(), 
-                   file_name="games.txt")
+                   data=open("games_1.txt", "rb").read(), 
+                   file_name="games_1.txt")
